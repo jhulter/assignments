@@ -3,9 +3,7 @@
 x = 23
 y = 50
 
-z = x
-x = y
-y = z
+x, y = y, x
 
 print("Value of x: ", x)
 print("Value of y: ", y)
